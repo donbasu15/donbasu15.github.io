@@ -1,0 +1,31 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Experience"
+    url: /experience/    
+
+  - title: "ML Projects"
+    url: /ML_projects/    
+    
+  - title: "NLP Projects"
+    url: /NLP-projects/
+        
+  - title: "Robotics Projects"
+    url: /Robotics-projects/
+
+  - title: "Portfolio"
+    url: /portfolio/
+    
+  - title: "Computer Vision Projects"
+    url: /Computer-Vision-projects/
+    
+  - title: "Skills"
+    url: /skills/
+
+  - title: "Resume"
+    url: /resume/
+
+  - title: "Talks/Workshops"
+    url: /talks/
