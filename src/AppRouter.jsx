@@ -8,7 +8,7 @@ const AppRouter = ()=>{
         <Router basename="/portfolio">
           <Routes>
                <Route path="/" element={<Home/>} />
-               <Route path="/projects" element={<ProjectPage/>} />
+               <Route path="/portfolio/projects" element={<ProjectPage/>} />
                <Route path="*" element={<NotFound/>} />
            </Routes>
         </Router>
