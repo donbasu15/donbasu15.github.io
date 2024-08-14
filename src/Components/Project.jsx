@@ -3,7 +3,10 @@ import ProImg from "../assets/Images/acos_img1.png"
 function Projects(){
     return(
         <>
-           <div className="project-container">
+         <div className="projects">
+            <h2>Machine Learning Projects</h2>
+            <div className="project-container">
+           
               <div className="project-head">
                   <div className="icon">
                      <img src={Icon} alt="I" />
@@ -86,6 +89,7 @@ function Projects(){
                           <img src={ProImg} alt="" />
                     </div>
                </div>
+             </div>
            </div>
         </>
     )
