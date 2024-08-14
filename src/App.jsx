@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import AppRouter from './AppRouter';
+import Home from './Pages/Home';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className='page-wrapper'>
-       <AppRouter></AppRouter>
+       <Outlet></Outlet>
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import { Link,Outlet } from "react-router-dom";
+
 function myFunction(e) {
     e.preventDefault();
     var x = document.getElementById("myTopnav");
@@ -14,15 +16,18 @@ function Header(){
         <div className="header">
           <div className="header-part">
             <div className="page-title">
-                <a href="/"><h1>Hirak's Page</h1></a>
+                <a href="/portfolio/"><h1>Hirak's Page</h1></a>
             </div>
             <div className="page-menu" id="myTopnav">
-                <a href="#">Pulications</a>
-                <a href="#">Experience</a>
-                <a href="#/projects">ML Projects</a>
-                <a href="#">Robotics Projecs</a>
-                <a href="#">Portfolio</a>      
+              <nav>
+                <Link to="#">Pulications</Link>
+                <Link to="#">Experience</Link>
+                <Link to="/portfolio/projects">ML Projects</Link>
+                <Link to="#">Robotics Projecs</Link>
+                <Link to="#">Portfolio</Link> 
+                </nav>   
             </div>
+
             </div>
             <div className="nav-icon page-menu" id="nav-icon">
                <a href="#" className="icon" onClick={myFunction}>

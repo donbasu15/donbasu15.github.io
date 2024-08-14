@@ -10,8 +10,6 @@ function Home(){
            <div className="page-body">
               <div className="body-parts"><Sidebar></Sidebar></div>
               <div className="body-parts">
-              
-                 
                 <HomeBody></HomeBody>
              </div>
            </div>

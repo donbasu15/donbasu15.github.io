@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
 }
-.header .page-menu a{
+.header .page-menu Link{
     margin-left: 25px;
     text-decoration: none;
     color: rgb(86, 85, 85);
