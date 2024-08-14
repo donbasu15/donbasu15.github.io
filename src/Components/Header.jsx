@@ -17,11 +17,11 @@ function Header(){
                 <a href="/"><h1>Hirak's Page</h1></a>
             </div>
             <div className="page-menu" id="myTopnav">
-                <a href="">Pulications</a>
-                <a href="">Experience</a>
-                <a href="/projects">ML Projects</a>
-                <a href="">Robotics Projecs</a>
-                <a href="">Portfolio</a>      
+                <a href="#">Pulications</a>
+                <a href="#">Experience</a>
+                <a href="#/projects">ML Projects</a>
+                <a href="#">Robotics Projecs</a>
+                <a href="#">Portfolio</a>      
             </div>
             </div>
             <div className="nav-icon page-menu" id="nav-icon">
