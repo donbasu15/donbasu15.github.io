@@ -1,7 +1,7 @@
 {
   "name": "hirak-s-profile",
   "homepage": "https://donbasu15.github.io/",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
