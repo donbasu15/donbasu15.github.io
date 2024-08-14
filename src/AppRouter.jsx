@@ -5,7 +5,7 @@ import ProjectPage from './Pages/ProjectPage';
 import NotFound from './Pages/NotFound';
 const AppRouter = ()=>{
     return(
-        <Router>
+        <Router basename="/portfolio">
           <Routes>
                <Route path="/" element={<Home/>} />
                <Route path="/projects" element={<ProjectPage/>} />

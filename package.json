@@ -1,11 +1,11 @@
 {
   "name": "hirak-s-profile",
-  "homepage": "https://donbasu15.github.io/",
-  "private": false,
+  "homepage": "https://donbasu15.github.io/portfolio",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +19,7 @@
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
     "styled-components": "^6.1.12"
   },
   "devDependencies": {
