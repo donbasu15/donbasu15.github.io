@@ -5,14 +5,18 @@ import Footer from "../Components/Footer";
 function ProjectPage(){
     return(
       <>        
-           <Header></Header>
+           <div id="page-header">
+                <Header></Header>
+           </div>    
            <div className="page-body">
-              <div className="body-parts"><Sidebar></Sidebar></div>
-              <div className="body-parts">
+              <div className="body-parts" id="page-sidebar"><Sidebar></Sidebar></div>
+              <div className="body-parts" id="page-content">
                 <Projects></Projects>
              </div>
            </div>
-           <Footer></Footer>
+           <div id="page-footer">
+               <Footer></Footer>
+           </div>
        </>
     )
 }
