@@ -19,13 +19,13 @@ function Header(){
                 <a href="/portfolio/"><h1>Hirak's Page</h1></a>
             </div>
             <div className="page-menu" id="myTopnav">
-              <nav>
+             
                 <Link to="#">Pulications</Link>
                 <Link to="#">Experience</Link>
                 <Link to="/portfolio/projects">ML Projects</Link>
                 <Link to="#">Robotics Projecs</Link>
                 <Link to="#">Portfolio</Link> 
-                </nav>   
+                 
             </div>
 
             </div>
