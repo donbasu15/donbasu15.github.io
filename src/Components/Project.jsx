@@ -1,3 +1,4 @@
+import '../assets/CSS/Project.css'
 import Icon from "../assets/Images/acos.png"
 import ProImg from "../assets/Images/acos_img1.png"
 function Projects(){
@@ -12,7 +13,7 @@ function Projects(){
                      <img src={Icon} alt="I" />
                   </div>
                   <div className="heading">
-                      <h2>ECTSum: Bullet Point Summarization of Long Earnings Call Transcripts</h2>
+                      <h2>ECTSum: Earnings Call Transcripts</h2>
                       <p>In association with Goldman Sachs | Apr 2022 - Jul 2022</p>
                   </div>
                </div>

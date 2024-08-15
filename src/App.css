@@ -1,9 +1,7 @@
 *{
     font-family: 'Roboto';
 }
-.sidebar{
-    width: 207px;
-}
+
 #page-header{
     width: 100%;
     background-color: white;
@@ -13,24 +11,7 @@
 #page-footer{
     width: 100%;
 }
-.user-avatar{
-     display: flex;
-     justify-content: center;
-}
-.user-avatar .user-photo{
-    width: 75%;
-    border-radius: 50%;
-}
-.user-link-wrapper a{
-    display: block;
-    margin-bottom: 15px;
-    font-size: 14px;
-    text-decoration: none;
-    color: rgb(86, 85, 85);
-}
-.user-link-wrapper a:hover{
-    text-decoration: underline;
-}
+
 
 /* header CSS */
 .head-wrapper{
@@ -40,7 +21,7 @@
     justify-content: center;
 }
 .header{
-    width: 1207px;
+    width: 1206px;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -53,11 +34,12 @@
 /* .header .page-title{
     text-align: left;
 } */
-.header .page-title a h1{
+.header .page-title a h2{
     text-decoration: none;
+    padding-top: 10px;
     color: rgb(96, 95, 95);
 }
-.header .page-title a h1:hover{
+.header .page-title a h2:hover{
     text-decoration: underline;
     color: rgb(96, 95, 95);
 }
@@ -90,6 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .nav-icon{
     display: none;
@@ -136,68 +119,8 @@
     }
 }  
 /* project component css */
-.projects{
-    margin-left: 100px;
-}
-.project-container{
-    width:900px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px 3px rgb(235, 233, 233);
-}
-.project-head{
-    display: flex;
-    padding: 5px;
-    justify-content:left;
-}
-.heading h2{
-     margin: 30px 0px 0px 0px;
-}
-.heading p{
-    margin: 0px;
-}
-.project-head .icon {
-    margin-right: 10px;
-}
-.project-head .icon img{
-    height: 48px;
-    margin-top: 25px;
-    padding: 5px;
-}
-.project-body{
-    display: flex;
-    margin: 0px 20px 20px 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-/* .project-body div{
-    
-} */
-.project-body .description{
-    line-height: 25px;
-    width: 45%;
-}
-.project-body .description p{
-    text-align: justify;
-}
-.project-body .image{
-    width: 53%;
-}
-.project-body .image img{
-    width: 100%;
-    height: 100%;
-}
-/* page body structure CSS */
-.page-body{
-    margin-top: 20px;
-    width: 1100px;
-    display: flex;
-    justify-content: center;
-    margin-top: 85px;
-}
 
-/* .body-parts{ 
-    margin: 25px;
-} */
+
 /* tag */
 .tags{
     display: flex;
@@ -216,56 +139,6 @@ p{
     color: rgb(86, 85, 85);
 }
 
-/* home page */
-.home-body{
-    width: 1000px;
-
-}
-
-.home-content{
-    width: 80%;
-    margin-left: 100px;
-}
-
-.home-content h1{
-    margin-bottom: 0px;
-}
-
-.hirak-heading{
-    width: 100%;
-}
-
-.about-hirak{
-    display: flex;
-    margin-top: 20px;
-}
-
-.about-hirak .about-text{
-    width: 60%;
-    font-size: large;
-}
-.about-hirak .about-text p{
-    margin-bottom: 30px;
-}
-.about-hirak .about-img{
-    width: 40%;
-    text-align: center;
-}
-.about-hirak .about-img h3{
-    margin-top: 0px;
-}
-.about-hirak .about-img img{
-    width: 300px;
-}
-.interest-hirak h1{
-    margin-top: 0px;
-}
-.interest-hirak p{
-    font-size: large;
-    line-height: 30px;
-}
-
-
 /* style footer */
 
 .footer{
@@ -277,4 +150,10 @@ p{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(194, 193, 193);
+}
+
+@media screen and (max-width: 1240px) {
+    .header{
+        width: 830px;
+    }
 }

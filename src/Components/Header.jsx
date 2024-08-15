@@ -16,7 +16,7 @@ function Header(){
         <div className="header">
           <div className="header-part">
             <div className="page-title">
-                <a href="/portfolio/"><h1>Hirak's Page</h1></a>
+                <a href="/portfolio/"><h2>Hirak's Page</h2></a>
             </div>
             <div className="page-menu" id="myTopnav">
              

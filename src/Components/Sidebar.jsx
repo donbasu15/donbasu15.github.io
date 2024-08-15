@@ -1,5 +1,4 @@
 import ProfileImage from '../assets/Images/Hirak_compressed.jpg'
-
 function Sidebar (){
     return(
         <div className='sidebar'>

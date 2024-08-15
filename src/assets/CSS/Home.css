@@ -1,0 +1,75 @@
+
+/* home page */
+.home-body{
+    width: 1000px;
+}
+
+.home-content{
+    width: 80%;
+    margin-left: 100px;
+}
+
+.home-content h1{
+    margin-bottom: 0px;
+}
+
+.hirak-heading{
+    width: 100%;
+}
+
+.about-hirak{
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-hirak .about-text{
+    width: 60%;
+    font-size: large;
+}
+.about-hirak .about-text p{
+    margin-bottom: 30px;
+}
+.about-hirak .about-img{
+    width: 40%;
+    text-align: center;
+}
+.about-hirak .about-img h3{
+    margin-top: 0px;
+}
+.about-hirak .about-img img{
+    width: 300px;
+}
+.interest-hirak h1{
+    margin-top: 0px;
+}
+.interest-hirak p{
+    font-size: large;
+    line-height: 30px;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .home-body{
+        width: 655px;
+    }
+    .about-hirak{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .about-hirak .about-text{
+        width: 100%
+    }
+    .about-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 930px) {
+
+    .home-body{
+        width: 100%;
+    }
+    .home-content{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
