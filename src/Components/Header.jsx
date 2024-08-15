@@ -28,14 +28,14 @@ function Header(){
                  
             </div>
 
-            </div>
-            <div className="nav-icon page-menu" id="nav-icon">
-               <a href="#" className="icon" onClick={myFunction}>
-                 <i className="fa fa-bars"></i>
-               </a>
-            </div> 
+          </div>
+          <div className="nav-icon" id="nav-icon">
+             <a href="#" className="icon" onClick={myFunction}>
+               <i className="fa fa-bars"></i>
+             </a>
+          </div> 
         </div>
-        </div>
+      </div>
     )
 }
 

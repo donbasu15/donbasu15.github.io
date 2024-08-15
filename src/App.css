@@ -43,7 +43,7 @@
     width: 1207px;
     height: 85px;
     display: flex;
-
+    justify-content: space-between;
 }
 .header-part{
     flex-grow: 1;
@@ -64,12 +64,25 @@
 .header .page-menu{
     display: flex;
     align-items: center;
+    margin-right: 100px;
 }
 .header .page-menu a{
     margin-left: 25px;
     text-decoration: none;
     color: rgb(86, 85, 85);
 }
+@media screen and (min-width: 945px){
+    .header .responsive{
+        display: flex;
+        align-items: center;
+    }
+    .header .responsive a{
+        margin-left: 25px;
+        text-decoration: none;
+        color: rgb(86, 85, 85);
+    }
+}
+
 .header a:hover{
     text-decoration: underline;
 }
@@ -78,34 +91,48 @@
     flex-direction: column;
     align-items: center;
 }
-.page-menu a.icon {
-    float: right;
+.nav-icon{
     display: none;
 }
-@media screen and (max-width: 800px) {
+/* .nav-icon a{
+    
+} */
+@media screen and (max-width: 945px) {
     .header{
         width: 80%;
     }
     .page-menu a{display: none;}
+    /* .nav-icon .icon{
+        position: relative;
+        left: 120px;
+    } */
+    .nav-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .page-menu a.icon {
-      float: right;
+      float: left;
       display: block;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 945px) {
     .page-menu .responsive {position: relative;}
     /* .page-menu .responsive .icon{
          
     } */
     .header .responsive{
-        width: 300px;
-        position: absolute;
-        right: 10px;
+        width: 200px;
+        position: fixed;
+        top: 80px;
+        background-color: white;
+        right: 0px;
     }
     .header .responsive a{
-        width: 300px;
+        width: 200px;
         display: block;
-        
+        padding: 10px;
+        color: rgb(86, 85, 85);
     }
 }  
 /* project component css */
@@ -114,7 +141,6 @@
 }
 .project-container{
     width:900px;
-   
     border-radius: 5px;
     box-shadow: 2px 2px 4px 3px rgb(235, 233, 233);
 }
@@ -130,9 +156,7 @@
     margin: 0px;
 }
 .project-head .icon {
-    
     margin-right: 10px;
-  
 }
 .project-head .icon img{
     height: 48px;
