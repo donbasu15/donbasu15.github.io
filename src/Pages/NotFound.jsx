@@ -1,6 +1,6 @@
 function NotFound(){
     return(
-        <>
+        <div className='page-wrapper'>
            <div id="page-header">
                 <Header></Header>
            </div>
@@ -13,7 +13,7 @@ function NotFound(){
            <div id="page-footer">
                <Footer></Footer>
            </div>
-        </>
+        </div>
     )
 }
 

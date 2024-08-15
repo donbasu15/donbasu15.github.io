@@ -17,7 +17,6 @@ function Home(){
            </div>
            <div id="page-footer">
                <Footer></Footer>
-
            </div>
            
         </div>

@@ -1,4 +1,4 @@
-import '../assets/CSS/Project.css'
+
 import Icon from "../assets/Images/acos.png"
 import ProImg from "../assets/Images/acos_img1.png"
 function Projects(){

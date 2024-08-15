@@ -4,7 +4,7 @@ import Sidebar from "../Components/Sidebar";
 import Footer from "../Components/Footer";
 function ProjectPage(){
     return(
-      <>        
+      <div className='page-wrapper'>       
            <div id="page-header">
                 <Header></Header>
            </div>    
@@ -17,7 +17,7 @@ function ProjectPage(){
            <div id="page-footer">
                <Footer></Footer>
            </div>
-       </>
+           </div>
     )
 }
 export default ProjectPage;

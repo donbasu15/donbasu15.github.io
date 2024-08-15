@@ -10,9 +10,9 @@
     overflow-x: hidden;
 }
 
-.page-body{
+/* .page-body{
     flex-grow: 1;
-}
+} */
 
 #page-header{
     width: 100%;
@@ -169,14 +169,14 @@ p{
         width: 830px;
     }
 }
-@media screen and (max-width: 930px){
-     .header{
+@media screen and (max-width: 930px) {
+    .header{
         width: 100%;
-     }
-     .page-title{
+    }
+    .page-title{
         margin-left: 10px;
-     }
-     .nav-icon{
+    }
+    .nav-icon{
         margin-right: 10px;
-     }
-}  
+    }   
+}
