@@ -2,6 +2,15 @@
     font-family: 'Roboto';
 }
 
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-body{
+    flex-grow: 1;
+}
+
 #page-header{
     width: 100%;
     background-color: white;
