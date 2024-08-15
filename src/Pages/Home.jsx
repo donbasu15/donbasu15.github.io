@@ -4,7 +4,7 @@ import HomeBody from "../Components/HomeBody";
 import Footer from "../Components/Footer";
 function Home(){
     return(
-        <>    
+        <div className='page-wrapper'>    
            <div id="page-header">
                 <Header></Header>
            </div>    
@@ -20,7 +20,7 @@ function Home(){
 
            </div>
            
-        </>
+        </div>
     )
 }
 
