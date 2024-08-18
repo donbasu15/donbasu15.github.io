@@ -20,11 +20,11 @@ function Header(){
             </div>
             <div className="page-menu" id="myTopnav">
              
-                <a href="/portfolio/">Pulications</a>
-                <a href="/portfolio/">Experience</a>
+                <a href="/portfolio/publication">Pulications</a>
+                <a href="/portfolio/experience">Experience</a>
                 <a href="/portfolio/projects">ML Projects</a>
-                <a href="/portfolio/">Robotics Projecs</a>
-                <a href="/portfolio/">Portfolio</a> 
+                <a href="/portfolio/robotics-projects">Robotics Projecs</a>
+                <a href="/portfolio/portfolio">Portfolio</a> 
                  
             </div>
 

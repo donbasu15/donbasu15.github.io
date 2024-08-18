@@ -5,14 +5,15 @@
 .page-wrapper{
     width: 100%;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
 }
 
-/* .page-body{
+.page-body{
     flex-grow: 1;
-} */
+} 
 
 #page-header{
     width: 100%;
@@ -151,18 +152,7 @@ p{
     color: rgb(86, 85, 85);
 }
 
-/* style footer */
 
-.footer{
-    height: 70px;
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(194, 193, 193);
-}
 
 @media screen and (max-width: 1240px) {
     .header{

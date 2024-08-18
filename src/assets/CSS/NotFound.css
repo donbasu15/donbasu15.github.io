@@ -1,0 +1,21 @@
+.page-body{
+    width: 1200px;
+}
+#page-not-found{
+    margin-left: 150px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1240px) {
+    .page-body{
+        width: 820px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .page-body{
+        width: 90%;
+    }
+    #page-not-found{
+        margin-left: 0px;
+    }
+}
